@@ -3,6 +3,7 @@ import './Items.css'
 import Button from "./Button";
 
 const Items =({title,desc,descLink,backgroundImg,leftbtn,leftbtnLink,rightbtn,rightbtnLink,twobtn})=>{
+    console.log(twobtn )
  return (
     <div className="item" style={{
         backgroundImage: `url(${backgroundImg})`
@@ -20,8 +21,9 @@ const Items =({title,desc,descLink,backgroundImg,leftbtn,leftbtnLink,rightbtn,ri
                 <Button imp='primary' text={leftbtn} 
                 link={leftbtnLink} />
                 {
-                    twobtn && (
-                        <Button imp='secondary' text={rightbtn} link={rightbtnLink}/>
+                twobtn && (
+                        <Button imp='secondary' text={rightbtn} 
+                        link={rightbtnLink}/>
                     )
                 }
             </div>

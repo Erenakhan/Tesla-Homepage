@@ -16,51 +16,51 @@ function App() {
       <div className="items-container" >
     <Items 
       title="Model 3"
-      desc="Money-back"
+      desc="Leasing starting at $349/mo"
       descLink=""
       backgroundImg={model3}
-      leftbtn="CUSTEM ORDER"
+      leftbtn="View Inventory"
       leftbtnLink=""
-      rightbtn="LEARN MORE"
+      rightbtn="Custom Order"
       rightbtnLink=""
       twobtn="true"
     />
     <Items 
       title="Model S"
-      desc="Money-back"
+      desc="Schedule a Demo Drive"
       descLink=""
       backgroundImg={modelS}
-      leftbtn="CUSTEM ORDER"
+      leftbtn="View Inventory"
       leftbtnLink=""
-      rightbtn="LEARN MORE"
+      rightbtn="Custom Order"
       rightbtnLink=""
       twobtn="true"
     />
     <Items 
       title="Model X"
-      desc="Money-back"
+      desc="Schedule a Demo Drive"
       descLink=""
       backgroundImg={modelX}
-      leftbtn="CUSTEM ORDER"
+      leftbtn="View Inventory"
       leftbtnLink=""
-      rightbtn="LEARN MORE"
+      rightbtn="Custom Order"
       rightbtnLink=""
       twobtn="true"
     />
     <Items 
       title="Model Y"
-      desc="Money-back"
+      desc="Schedule a Demo Drive"
       descLink=""
       backgroundImg={modelY}
-      leftbtn="CUSTEM ORDER"
+      leftbtn="View Inventory"
       leftbtnLink=""
-      rightbtn="LEARN MORE"
+      rightbtn="Custom Order"
       rightbtnLink=""
       twobtn="true"
     />
     <Items 
       title="Model Panel"
-      desc="Money-back"
+      desc="Lowest Cost Solar Panels in America"
       descLink=""
       backgroundImg={modelPanel}
       leftbtn="CUSTEM ORDER"
@@ -71,10 +71,10 @@ function App() {
     />
     <Items 
       title="Model Roof"
-      desc="Money-back"
+      desc="Produce Clean Energy From Your Roof"
       descLink=""
       backgroundImg={modelRoof}
-      leftbtn="CUSTEM ORDER"
+      leftbtn="ORDER NOW"
       leftbtnLink=""
       rightbtn="LEARN MORE"
       rightbtnLink=""
@@ -82,14 +82,14 @@ function App() {
     />
     <Items 
       title="Model Accessories"
-      desc="Money-back"
+      desc=""
       descLink=""
       backgroundImg={modelAcc}
-      leftbtn="CUSTEM ORDER"
+      leftbtn="SHOP NOW"
       leftbtnLink=""
       rightbtn="LEARN MORE"
       rightbtnLink=""
-      twobtn= 'false'
+      twobtn = "false"
     />
      </div>
     </div>

@@ -18,7 +18,8 @@ function Header() {
         </div>
         <div className="nav-end">
             <p>Shop</p>
-            <p>Tesla Account</p>
+            <p>Account</p>
+            <p>Menu</p>
 
         </div>
     </div>
